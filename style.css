@@ -1,0 +1,430 @@
+ .home{
+    font-size: 1.7rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:#e8edf7;
+    padding:30px;
+
+}
+.home2{ text-align: center;
+    background-color:  #CADCFC;
+    color: rgb(19, 74, 113);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    padding: px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    font-size: larger;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  
+  header {
+    background-color: #111;
+    color: #fff;
+    padding: 1.6px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  
+  .home {
+    background-color:#ededed;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .home p {
+    font-size: 2.0rem;
+    margin-top: 1rem;
+
+  }
+  
+  
+  .teams {
+    padding: 2rem 0;
+    background-color: #76cbd8;
+  }
+  
+  .teams h2 {
+    text-align:center;
+    font-size: larger;
+    margin-bottom: 2rem;
+  }
+  
+  .team {
+    background-color: #23656a;
+    margin-bottom: 1.7rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .team h3 {
+    color: #08aaef;
+  }
+  
+ 
+  .events {
+    padding: 2rem 0;
+    background-color: #f8f8f8;
+  }
+  
+  .events h2 {
+    text-align: center;
+    margin-bottom: 1.7rem;
+  }
+  
+  .events ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .events li {
+    margin: 1rem 0;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 2rem 0;
+    background-color: #fff;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact p {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .social-links {
+    text-align: center;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #14d6f8;
+    border-radius: 5px;
+  }
+  
+  .social-links a:hover {
+    background-color: #14d6f8;
+    color: #fff;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.team {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.team h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #3f72af;
+}
+
+.team p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.team img {
+    width: 100%;
+    max-width: 180px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for scaling images */
+.team:hover img {
+    transform: scale(1.1);
+}
+
+/* Hover effect for team section */
+.team:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation to fade in the team sections */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Adding hover effects to the entire section */
+.team:hover {
+    background-color: #f1faff;
+    border: 1px solid #3f72af;
+}
+
+/* Styling the section images to be uniform */
+.team img {
+    transition: all 0.3s ease;
+}
+
+.team h3:hover, .team p:hover {
+    color: #3f72af;
+}
+/* General Styles for Navbar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #032051;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f1faee;
+}
+
+/* Optional: Adding a smooth transition for the navbar */
+.navbar-container a {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-container a:hover {
+    color: #f1faee;
+    transform: scale(1.1);
+}
+
+/* Adding spacing below navbar to avoid content being hidden behind */
+body {
+    padding-top: 60px; /* Adjust if necessary to give enough space */
+}
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #3f72af;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f1faee;
+}
+
+/* Section Header Styles */
+#events {
+    margin-top: 60px; /* To prevent overlap with navbar */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-header h1 {
+    font-size: 3rem;
+    color: #3f72af;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Event Container Styles */
+.events-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.event {
+    background-color: #fff;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.event-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.event-details h3 {
+    font-size: 1.8rem;
+    color: #3f72af;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 1.1rem;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #3f72af;
+    color: #fffaf8;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2d5a8e;
+}
+
+/* Hover Effects */
+.event:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.event-details h3:hover {
+    color: #f1faee;
+}
+
+.btn:hover {
+    background-color: #2d5a8e;
+} 
